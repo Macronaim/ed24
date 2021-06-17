@@ -72,7 +72,7 @@
 </script>
 
 <script data-name="youfindme" data-type="application/javascript" defer data-src="https://www.fdmanager.fr/elements/cookies.js"></script>
-<script defer type="text/javascript" src="js/klaro/dist/config.js"></script>
+<script defer type="text/javascript" src="{{ asset('js/klaro/dist/config.js') }}"></script>
 <script defer data-config="klaroConfig" type="application/javascript" src="https://cdn.kiprotect.com/klaro/v0.7.11/klaro.js">
 </script>
 <link rel="stylesheet" href="{{ asset('js/klaro/dist/klaro.css') }}">

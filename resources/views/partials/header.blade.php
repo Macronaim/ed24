@@ -52,17 +52,12 @@
             <li class="menu-item menu-item-external menu-item-139"><a href="#">Nos prestations</a>
                 <ul class="sub-menu">
                     <li class="menu-item menu-item-service.list menu-item-142 active"><a
-                            href="creation-site-internet-idf.html">Sites
-                            internet</a></li>
+                            href="{{ url('/nos-prestations/site-vitrine') }}">Site Vitrine</a></li>
                     <li class="menu-item menu-item-service.list menu-item-143"><a
-                            href="referencement-site-internet.html">SEO
-                            / SEA</a></li>
+                            href="{{ url('/nos-prestations/e-commerce') }}">E-Commerce</a></li>
                     <li class="menu-item menu-item-service.list menu-item-144"><a
-                            href="developpement-applications-mobiles.html">Applications</a>
+                            href="{{ url('/nos-prestations/référencement-naturel') }}">Référencement Naturel</a>
                     </li>
-                    <li class="menu-item menu-item-service.list menu-item-145"><a
-                            href="marketing-direct.html">Marketing
-                            direct</a></li>
                 </ul>
             </li>
             <li class="menu-item menu-item-page menu-item-140"><a href="{{ url('/nos-realisations') }}">Nos réalisations</a>
@@ -84,32 +79,22 @@
         <div class="head">
             <div class="container nopad">
                 <div class="row relative header">
-                    <div class="col-lg-3 col-md-3  nopad">
+                    <div class="col-lg-4 col-md-4">
                         <p class="logo-site">
                             <a href="{{ url('/') }}"><img src="{{ asset('images/logo.png') }}" alt="ED CONCEPT 24" /></a>
                         </p>
                     </div>
-                    <div class="col-lg-8 col-md-8 nopad right">
-                    <nav class="navh">
-                        <!-- Menu menu_principal -->
-                        <ul id="menu_principal" class="menu_principal">
-                            <li class="menu-item menu-item-page menu-item-21 {{ Request::is('/') ? 'active' : '' }}"><a href="{{ url('/') }}">Accueil</a></li>
-                            <li class="menu-item menu-item-external menu-item-103 {{ Request::is('nos-prestations*') ? 'active' : '' }}"><a href="#!" target="_blank">Nos prestations</a></li>
-                            <li class="menu-item menu-item-page menu-item-29 {{ Request::is('nos-realisations') ? 'active' : '' }}"><a href="{{ url('/nos-realisations') }}">Nos réalisations</a></li>
-                            <li class="menu-item menu-item-contact menu-item-29 {{ Request::is('contact') ? 'active' : '' }}"><a href="{{ url('/contact') }}">Contact</a></li>
-                        </ul>
-                        <!-- /Menu menu_principal -->
-                    </nav>
-                    </div>
-                    <div class="col-md-1 nopad">
-                        <div class="menu1">
-                            <button id="showRight" class="menu-button" style="visibility: visible;">
-                                <span class="note">4.6</span>
-                                <span class="avis">
-                                    <span class="icons1"></span>
-                                </span>
-                            </button>
-                        </div>
+                    <div class="col-lg-8 col-md-8">
+                        <nav class="navh">
+                            <!-- Menu menu_principal -->
+                            <ul id="menu_principal" class="menu_principal">
+                                <li class="menu-item menu-item-page menu-item-21 {{ Request::is('/') ? 'active' : '' }}"><a href="{{ url('/') }}">Accueil</a></li>
+                                <li class="menu-item menu-item-external menu-item-103 {{ Request::is('nos-prestations*') ? 'active' : '' }}"><a href="#!" target="_blank">Nos prestations</a></li>
+                                <li class="menu-item menu-item-page menu-item-29 {{ Request::is('nos-realisations') ? 'active' : '' }}"><a href="{{ url('/nos-realisations') }}">Nos réalisations</a></li>
+                                <li class="menu-item menu-item-contact menu-item-29 {{ Request::is('contact') ? 'active' : '' }}"><a href="{{ url('/contact') }}">Contact</a></li>
+                            </ul>
+                            <!-- /Menu menu_principal -->
+                        </nav>
                     </div>
 
                 </div>
@@ -124,7 +109,7 @@
         <ul id="menu_principal2" class="menu_principal2">
             <li class="menu-item menu-item-service.list menu-item-127"><a href="{{ url('/nos-prestations/site-vitrine') }}">Site Vitrine</a></li>
             <li class="menu-item menu-item-service.list menu-item-129"><a href="{{ url('/nos-prestations/e-commerce') }}">E-Commerce</a></li>
-            <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/référencement-naturel') }}">Référenecment Naturel</a></li>
+            <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/référencement-naturel') }}">Référencement Naturel</a></li>
         </ul>
 
         <!-- /Menu menu_principal2 -->
@@ -143,7 +128,7 @@
         <ul id="menu_principal2" class="menu_principal2">
             <li class="menu-item menu-item-service.list menu-item-127"><a href="{{ url('/nos-prestations/site-vitrine') }}">Site Vitrine</a></li>
             <li class="menu-item menu-item-service.list menu-item-129"><a href="{{ url('/nos-prestations/e-commerce') }}">E-Commerce</a></li>
-            <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/referencement') }}">Référenecment Naturel</a></li>
+            <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/referencement') }}">Référencement Naturel</a></li>
         </ul>
 
         <!-- /Menu menu_principal3 -->

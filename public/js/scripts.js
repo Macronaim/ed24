@@ -107,161 +107,17 @@ if (!AUDIT) {
             elements_selector: ".lazy"
         });
         lazyLoadInstance.loadAll();
-        if (ACCUEIL) {
-            function draw_lines() {
-                /**********line*********/
-                var dot1990 = $('#dot1990');
-                var dot20091 = $('#dot2009-1');
-                var dot20092 = $('#dot2009-2');
-                var dot20093 = $('#dot2009-3');
-                var dot2014 = $('#dot2014');
-                var dot2016 = $('#dot2016');
-                var dot2017 = $('#dot2017');
-                var dots2017 = $('#dots2017');
-                var dots20172 = $('#dots2017-2');
-                var dot2018 = $('#dot2018');
-                var dot2019 = $('#dot2019');
-                var dot2020 = $('#dot2020');
-                var dot2021 = $('#dot2021');
-                var dot2022 = $('#dot2022');
-                var dot2023 = $('#dot2023');
-                var dot2024 = $('#dot2024');
-                var dot2025 = $('#dot2025');
-                //$('.main-page').line(dot1990.offset().top, dot1990.offset().left, dot20091.offset().top, dot20091.offset().left, {color:"red", zindex:1});
-                var childPos = dot1990.offset();
-                var parentPos = dot1990.parents('.dotencart').offset();
-                var childOffset = {
-                    top: childPos.top - parentPos.top,
-                    left: childPos.left - parentPos.left
-                }
-                var childPos2 = dot20091.offset();
-                var parentPos2 = dot20091.parents('.dotencart').offset();
-                var childOffset2 = {
-                    top: childPos2.top - parentPos2.top,
-                    left: childPos2.left - parentPos2.left
-                }
-                var childPos3 = dot20092.offset();
-                var parentPos3 = dot20092.parents('.dotencart').offset();
-                var childOffset3 = {
-                    top: childPos3.top - parentPos3.top,
-                    left: childPos3.left - parentPos3.left
-                }
-                var childPos4 = dot20093.offset();
-                var parentPos4 = dot20093.parents('.dotencart').offset();
-                var childOffset4 = {
-                    top: childPos4.top - parentPos4.top,
-                    left: childPos4.left - parentPos4.left
-                }
-                var childPos5 = dot2014.offset();
-                var parentPos5 = dot2014.parents('.dotencart').offset();
-                var childOffset5 = {
-                    top: childPos5.top - parentPos5.top,
-                    left: childPos5.left - parentPos5.left
-                }
-                var childPos6 = dot2016.offset();
-                var parentPos6 = dot2016.parents('.dotencart').offset();
-                var childOffset6 = {
-                    top: childPos6.top - parentPos6.top,
-                    left: childPos6.left - parentPos6.left
-                }
-                var childPos8 = dot2018.offset();
-                var parentPos8 = dot2018.parents('.dotencart').offset();
-                var childOffset8 = {
-                    top: childPos8.top - parentPos8.top,
-                    left: childPos8.left - parentPos8.left
-                }
-                var childPos9 = dot2019.offset();
-                var parentPos9 = dot2019.parents('.dotencart').offset();
-                var childOffset9 = {
-                    top: childPos9.top - parentPos9.top,
-                    left: childPos9.left - parentPos9.left
-                }
-                var childPos10 = dot2020.offset();
-                var parentPos10 = dot2020.parents('.dotencart').offset();
-                var childOffset10 = {
-                    top: childPos10.top - parentPos10.top,
-                    left: childPos10.left - parentPos10.left
-                }
-                var childPos11 = dot2021.offset();
-                var parentPos11 = dot2021.parents('.dotencart').offset();
-                var childOffset11 = {
-                    top: childPos11.top - parentPos11.top,
-                    left: childPos11.left - parentPos11.left
-                }
-                var childPos12 = dot2022.offset();
-                var parentPos12 = dot2022.parents('.dotencart').offset();
-                var childOffset12 = {
-                    top: childPos12.top - parentPos12.top,
-                    left: childPos12.left - parentPos12.left
-                }
-                var childPos15 = dot2025.offset();
-                var parentPos15 = dot2025.parents('.dotencart').offset();
-                var childOffset15 = {
-                    top: childPos15.top - parentPos15.top,
-                    left: childPos15.left - parentPos15.left
-                }
-                $('.dotencart').line(childOffset.left + 6, childOffset.top + 6, childOffset2.left + 6, childOffset2.top + 6, {
-                    color: "#fff",
-                    zindex: 1
-                });
-                $('.dotencart').line(childOffset2.left + 6, childOffset2.top + 6, childOffset3.left + 6, childOffset3.top + 6, {
-                    color: "#fff",
-                    zindex: 1
-                });
-                $('.dotencart').line(childOffset3.left + 6, childOffset3.top + 6, childOffset4.left + 6, childOffset4.top + 6, {
-                    color: "#fff",
-                    zindex: 1
-                });
-                $('.dotencart').line(childOffset4.left + 6, childOffset4.top + 6, childOffset5.left + 6, childOffset5.top + 6, {
-                    color: "#fff",
-                    zindex: 1
-                });
-                $('.dotencart').line(childOffset5.left + 6, childOffset5.top + 6, childOffset6.left + 6, childOffset6.top + 6, {
-                    color: "#fff",
-                    zindex: 1
-                });
-                $('.dotencart').line(childOffset6.left + 4, childOffset6.top + 4, childOffset8.left + 6, childOffset8.top, {
-                    color: "#fff",
-                    zindex: 1
-                });
-                $('.dotencart').line(childOffset8.left + 8, childOffset8.top + 12, childOffset9.left + 6, childOffset9.top + 2, {
-                    color: "#fff",
-                    zindex: -5
-                });
-                $('.dotencart').line(childOffset9.left + 6, childOffset9.top + 12, childOffset10.left + 6, childOffset10.top + 2, {
-                    color: "#fff",
-                    zindex: 1
-                });
-                $('.dotencart').line(childOffset10.left + 6, childOffset10.top + 12, childOffset11.left + 6, childOffset11.top + 2, {
-                    color: "#fff",
-                    zindex: 1
-                });
-                $('.dotencart').line(childOffset11.left + 6, childOffset11.top + 12, childOffset12.left + 6, childOffset12.top + 2, {
-                    color: "#fff",
-                    zindex: 1
-                });
-
-
-                $('.dotencart').line(childOffset12.left + 6, childOffset12.top + 12, childOffset15.left + 6, childOffset15.top + 2, {
-                    color: "#fff",
-                    zindex: 1
-                });
-                /*$('.dotencart').line(childOffset12.left + 6, childOffset12.top + 12, childOffset12.left + 6, childOffset12.top + 2, {
-                	color: "#fff",
-                	zindex: 1
-                });*/
-            }
-
-        }
         menuRight = document.getElementById('cbp-spmenu-s2');
         showRight = document.getElementById('showRight');
         body = document.body;
+                /*
         $('body').addClass('cbp-spmenu-push');
         showRight.onclick = function() {
             classie.toggle(this, 'active');
             classie.toggle(menuRight, 'cbp-spmenu-open');
             $('body').toggleClass('cbp-spmenu-push-toleft');
         };
+        */
 
         function disableOther(button) {
             if (button !== 'showRight') {
@@ -908,34 +764,119 @@ if (!AUDIT) {
             } else {
                 jQuery('#loader').fadeOut('1000');
             }
-            // will fade out the white DIV that covers the website.
-            if (ACCUEIL) {
-                draw_lines();
-
-                function fader() {
-                    var r = jQuery('.line,.circledot'),
-                        wh = jQuery(window).height(),
-                        dt = jQuery(document).scrollTop(),
-                        elView, opacity;
-                    r.each(function() {
-                        elView = wh - ($(this).offset().top - dt) + 100;
-                        if (elView > 0) { // Top of DIV above bottom of window.
-                            opacity = 1 / (wh + $(this).height()) * elView;
-                            if (opacity < 1) // Bottom of DIV below top of window.
-                                $(this).css('opacity', opacity);
-                            jQuery(this).css('animation-duration', "2s");
-                            jQuery(this).css('animation-fill-mode', "both");
-                            jQuery(this).css('animation-name', "fadeIn");
-                        }
-                    });
-                    // Loop elements with class "blue"
-                }
-
-                // Event on scroll
-                jQuery(document).bind('scroll', fader);
-            }
         });
         /***********************************/
+        /* Testimonials JS */
+        // vars
+        'use strict'
+        var	testim = document.getElementById("testim"),
+        testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
+        testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
+        testimLeftArrow = document.getElementById("left-arrow"),
+        testimRightArrow = document.getElementById("right-arrow"),
+        testimSpeed = 4500,
+        currentSlide = 0,
+        currentActive = 0,
+        testimTimer,
+        touchStartPos,
+        touchEndPos,
+        touchPosDiff,
+        ignoreTouch = 30;
+
+        window.onload = function() {
+
+            // Testim Script
+            function playSlide(slide) {
+                for (var k = 0; k < testimDots.length; k++) {
+                    testimContent[k].classList.remove("active");
+                    testimContent[k].classList.remove("inactive");
+                    testimDots[k].classList.remove("active");
+                }
+
+                if (slide < 0) {
+                    slide = currentSlide = testimContent.length-1;
+                }
+
+                if (slide > testimContent.length - 1) {
+                    slide = currentSlide = 0;
+                }
+
+                if (currentActive != currentSlide) {
+                    testimContent[currentActive].classList.add("inactive");            
+                }
+                testimContent[slide].classList.add("active");
+                testimDots[slide].classList.add("active");
+
+                currentActive = currentSlide;
+            
+                clearTimeout(testimTimer);
+                testimTimer = setTimeout(function() {
+                    playSlide(currentSlide += 1);
+                }, testimSpeed)
+            }
+
+            testimLeftArrow.addEventListener("click", function() {
+                playSlide(currentSlide -= 1);
+            })
+
+            testimRightArrow.addEventListener("click", function() {
+                playSlide(currentSlide += 1);
+                console.log("clicked right arrow")
+            })    
+
+            for (var l = 0; l < testimDots.length; l++) {
+                testimDots[l].addEventListener("click", function() {
+                    playSlide(currentSlide = testimDots.indexOf(this));
+                })
+            }
+
+            playSlide(currentSlide);
+
+            // keyboard shortcuts
+            document.addEventListener("keyup", function(e) {
+                switch (e.keyCode) {
+                    case 37:
+                        testimLeftArrow.click();
+                        break;
+                        
+                    case 39:
+                        testimRightArrow.click();
+                        break;
+
+                    case 39:
+                        testimRightArrow.click();
+                        break;
+
+                    default:
+                        break;
+                }
+            })
+
+            testim.addEventListener("touchstart", function(e) {
+                    touchStartPos = e.changedTouches[0].clientX;
+            })
+
+            testim.addEventListener("touchend", function(e) {
+                    touchEndPos = e.changedTouches[0].clientX;
+                
+                    touchPosDiff = touchStartPos - touchEndPos;
+                
+                    console.log(touchPosDiff);
+                    console.log(touchStartPos);	
+                    console.log(touchEndPos);	
+
+                
+                    if (touchPosDiff > 0 + ignoreTouch) {
+                            testimLeftArrow.click();
+                    } else if (touchPosDiff < 0 - ignoreTouch) {
+                            testimRightArrow.click();
+                    } else {
+                        return;
+                    }
+                
+            })
+        }
+        /* End Testimonials */
     });
 
 }

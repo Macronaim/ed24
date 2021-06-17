@@ -19,16 +19,16 @@
     <div class="main-page post-wrapper ">
         <div class="header-sidebars hidden-md hidden-lg hide-print">
             <div class="header-top">
-                <a href="/" class="top-logo"><img src="{{ asset('images/logo.png') }}" alt="ED CONCEPT 24" /></a>
-                <a href="contact-creation-site-ile-de-france.html" class="deploy-right-mail"></a>
+                <a href="{{ url('/') }}" class="top-logo"><img src="{{ asset('images/logo.png') }}" alt="ED CONCEPT 24" /></a>
+                <a href="{{ url('/contact') }}" class="deploy-right-mail"></a>
                 <a href="tel:0951194847" class="deploy-right-call callTracker" data-zone="En-tête" data-page="accueil" data-source="site"></a>
-                <a href="/" class="deploy-right-sidebar"></a>
+                <a href="{{ url('/') }}" class="deploy-right-sidebar"></a>
             </div>
         </div>
         <div class="sidebar-right hidden-md hidden-lg hide-print">
             <div class="sidebar-scroll-right">
                 <div class="sidebar-header-right">
-                    <a href="/" class="close-sidebar-right"></a>
+                    <a href="{{ url('/') }}" class="close-sidebar-right"></a>
                     <img src="{{ asset('images/logo_menu.png') }}" class="sidebar-right-logo" alt="ED CONCEPT 24">
                 </div>
 
@@ -36,19 +36,16 @@
 
                 <!-- Menu menu-main-menu -->
                 <ul id="menu-main-menu" class="menu-mobile-dynamique">
-                    <li class="menu-item menu-item-page menu-item-137 active"><a href="/">Accueil</a></li>
+                    <li class="menu-item menu-item-page menu-item-137 active"><a href="{{ url('/') }}">Accueil</a></li>
                     <li class="menu-item menu-item-external menu-item-139"><a href="#">Nos prestations</a>
                         <ul class="sub-menu">
-                        <li class="menu-item menu-item-service.list menu-item-127"><a href="{{ url('/nos-prestations/site-vitrine') }}">Site Vitrine</a></li>
-            <li class="menu-item menu-item-service.list menu-item-129"><a href="{{ url('/nos-prestations/e-commerce') }}">E-Commerce</a></li>
-            <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/référencement-naturel') }}">Référenecment Naturel</a></li>
+                            <li class="menu-item menu-item-service.list menu-item-127"><a href="{{ url('/nos-prestations/site-vitrine') }}">Site Vitrine</a></li>
+                            <li class="menu-item menu-item-service.list menu-item-129"><a href="{{ url('/nos-prestations/e-commerce') }}">E-Commerce</a></li>
+                            <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/référencement-naturel') }}">Référencement Naturel</a></li>
                         </ul>
                     </li>
-                    <li class="menu-item menu-item-external menu-item-140"><a href="#">Nos réalisations</a>
-                    </li>
-                    
-                    
-                    <li class="menu-item menu-item-contact menu-item-141"><a href="contact-creation-site-ile-de-france.html">Contact</a></li>
+                    <li class="menu-item menu-item-page menu-item-140"><a href="{{ url('/nos-realisations') }}">Nos réalisations</a> </li>
+                    <li class="menu-item menu-item-contact menu-item-141"><a href="{{ url('/contact') }}">Contact</a></li>
                 </ul>
 
                 <!-- /Menu menu-main-menu -->
@@ -63,13 +60,13 @@
                 <div class="head">
                     <div class="container nopad">
                         <div class="row relative header">
-                            <div class="col-lg-3 col-md-3  nopad">
+                            <div class="col-lg-4 col-md-4">
                                 <p class="logo-site">
-                                    <a href="/"><img src="{{ asset('images/logo.png') }}" alt="ED CONCEPT 24" /></a>
+                                    <a href="{{ url('/') }}/"><img src="{{ asset('images/logo.png') }}" alt="ED CONCEPT 24" /></a>
                                 </p>
                             </div>
 
-                            <div class="col-lg-8 col-md-8 nopad right">
+                            <div class="col-lg-8 col-md-8">
                                 <nav class="navh">
 
                                     <!-- Menu menu_principal -->
@@ -78,17 +75,7 @@
                                     <!-- /Menu menu_principal -->
                                 </nav>
                             </div>
-                            <div class="col-md-1 nopad">
-                                <div class="menu1">
-                                    <button id="showRight" class="menu-button" style="visibility: visible;">
-										<span class="note">4.6</span>
-                                        <span class="avis">
-                                            <span class="icons1"></span>
-                                        </span>
-                                    </button>
-                                </div>
 
-                            </div>
 
                         </div>
                     </div>
@@ -97,16 +84,13 @@
 
 
             <nav class="cd-3d-nav-container">
-
                 <!-- Menu menu_principal2 -->
                 <ul id="menu_principal2" class="menu_principal2">
                 <li class="menu-item menu-item-service.list menu-item-127"><a href="{{ url('/nos-prestations/site-vitrine') }}">Site Vitrine</a></li>
                 <li class="menu-item menu-item-service.list menu-item-129"><a href="{{ url('/nos-prestations/e-commerce') }}">E-Commerce</a></li>
-                <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/référencement-naturel') }}">Référenecment Naturel</a></li>
+                <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/référencement-naturel') }}">Référencement Naturel</a></li>
                 </ul>
-
                 <!-- /Menu menu_principal2 -->
-
                 <span class="cd-marker color-1"></span>
                 <a href="#0" class="cd-3d-nav-trigger">
 			Menu
@@ -139,7 +123,7 @@
                         <div class="cell photo cover"> <img class="lazy loaded" data-src="{{ asset('images/services/large/2.png') }}" alt="" src="{{ asset('images/services/large/1.png') }}" data-was-processed="true">
                         </div>
                         <p class="plus" style="z-index: 1;">
-                            <a href="https://www.temoignages-edconcept24.fr/" target="_blank" rel="noopener"> 
+                            <a href="https://www.edconcept24.fr/" target="_blank" rel="noopener"> 
                             <span>rejoindre les nazis</span>
                             </a>
                         </p>
@@ -188,8 +172,6 @@
 
                             <div class="col-md-6  col-xs-12 col-sm-12" data-anim="fadeInLeft">
                                 <h1>EDConcept24<br> <span>Des sites web de qualité à prix serrés</span>
-                                    <h3 class="texte" style="text-align: center; color: #8d2a73;"><span style="font-size: 14pt;">Lancez-vous, faites appel à des professionnels</span></h3>
-
                                 </h1>
                                 <div class="page-contenu clear">
                                     <p>ED CONCEPT 24 mise sur  la croissance fulgurante des fréquentations d’internet pour lancer sa propre gamme de site web destinée aux petites et moyennes entreprises.  (TPE.PME).</p>
@@ -201,11 +183,11 @@
                                         <li>Sites sur mesure</li>
                                     </ul>
                                     <p>Aujourd’hui indispensable au développement d’une entreprise, votre site vous donnera l’opportunité de communiquer de manière différente auprès de vos clients, prospects, partenaires et futurs collaborateurs.</p>
-                                    <p class="plus" style="margin-top: 0px;"><a href="creation-site-internet-idf.html">Lire la suite</a></p>
+                                    <p class="plus" style="margin-top: 0px;"><a href="{{ url('/nos-prestations/site-vitrine') }}">Lire la suite</a></p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-xs-12">
-                                <div class="cell photo cover"> <img class="lazy loaded" data-src="{{ asset('images/services/large/2.png') }}" alt="" src="{{ asset('images/services/large/2.png') }}" data-was-processed="true">
+                                <div class="cell photo cover"> <img class="lazy loaded" data-src="{{ asset('images/conception-et-design.svg') }}" alt="" src="{{ asset('images/conception-et-design.svg') }}" data-was-processed="true">
                                 </div>
                             </div>
                             <div class="col-md-12 col-xs-12">
@@ -319,10 +301,8 @@
                         </div>
                 </section>
                 <section id="testim" class="testim">
-                    <!--         <div class="testim-cover"> -->
                                 <div class="wrap">
-                                    <h3 class="" style="color: #fff; text-align:center">Testemonials</h3>
-                    
+                                    <h3 class="" style="color: #fff; text-align:center">Témoignages</h3>
                                     <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
                                     <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
                                     <ul id="testim-dots" class="dots hidden-xs hidden-sm">
@@ -350,117 +330,6 @@
                                     </div>
                     
                                 </div>
-                    <!--         </div> -->
-                    <script>/* Testimonial Slider */
-                        // vars
-                'use strict'
-                var	testim = document.getElementById("testim"),
-                        testimDots = Array.prototype.slice.call(document.getElementById("testim-dots").children),
-                    testimContent = Array.prototype.slice.call(document.getElementById("testim-content").children),
-                    testimLeftArrow = document.getElementById("left-arrow"),
-                    testimRightArrow = document.getElementById("right-arrow"),
-                    testimSpeed = 4500,
-                    currentSlide = 0,
-                    currentActive = 0,
-                    testimTimer,
-                        touchStartPos,
-                        touchEndPos,
-                        touchPosDiff,
-                        ignoreTouch = 30;
-                ;
-        
-                window.onload = function() {
-        
-                    // Testim Script
-                    function playSlide(slide) {
-                        for (var k = 0; k < testimDots.length; k++) {
-                            testimContent[k].classList.remove("active");
-                            testimContent[k].classList.remove("inactive");
-                            testimDots[k].classList.remove("active");
-                        }
-        
-                        if (slide < 0) {
-                            slide = currentSlide = testimContent.length-1;
-                        }
-        
-                        if (slide > testimContent.length - 1) {
-                            slide = currentSlide = 0;
-                        }
-        
-                        if (currentActive != currentSlide) {
-                            testimContent[currentActive].classList.add("inactive");            
-                        }
-                        testimContent[slide].classList.add("active");
-                        testimDots[slide].classList.add("active");
-        
-                        currentActive = currentSlide;
-                    
-                        clearTimeout(testimTimer);
-                        testimTimer = setTimeout(function() {
-                            playSlide(currentSlide += 1);
-                        }, testimSpeed)
-                    }
-        
-                    testimLeftArrow.addEventListener("click", function() {
-                        playSlide(currentSlide -= 1);
-                    })
-        
-                    testimRightArrow.addEventListener("click", function() {
-                        playSlide(currentSlide += 1);
-                    })    
-        
-                    for (var l = 0; l < testimDots.length; l++) {
-                        testimDots[l].addEventListener("click", function() {
-                            playSlide(currentSlide = testimDots.indexOf(this));
-                        })
-                    }
-        
-                    playSlide(currentSlide);
-        
-                    // keyboard shortcuts
-                    document.addEventListener("keyup", function(e) {
-                        switch (e.keyCode) {
-                            case 37:
-                                testimLeftArrow.click();
-                                break;
-                                
-                            case 39:
-                                testimRightArrow.click();
-                                break;
-        
-                            case 39:
-                                testimRightArrow.click();
-                                break;
-        
-                            default:
-                                break;
-                        }
-                    })
-                        
-                        testim.addEventListener("touchstart", function(e) {
-                                touchStartPos = e.changedTouches[0].clientX;
-                        })
-                    
-                        testim.addEventListener("touchend", function(e) {
-                                touchEndPos = e.changedTouches[0].clientX;
-                            
-                                touchPosDiff = touchStartPos - touchEndPos;
-                            
-                                console.log(touchPosDiff);
-                                console.log(touchStartPos);	
-                                console.log(touchEndPos);	
-        
-                            
-                                if (touchPosDiff > 0 + ignoreTouch) {
-                                        testimLeftArrow.click();
-                                } else if (touchPosDiff < 0 - ignoreTouch) {
-                                        testimRightArrow.click();
-                                } else {
-                                    return;
-                                }
-                            
-                        })
-                }</script>
                 </section>
                 <section class="realisations">
                     <div class="container1 post-content">

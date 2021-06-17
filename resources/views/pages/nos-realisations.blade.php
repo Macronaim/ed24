@@ -22,7 +22,7 @@
                                 <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"
                                     date-test="">
                                     <a itemprop="item" href="nos-realisations.html"><span
-                                            itemprop="name">Nos réalisations</span></a> &gt;
+                                            itemprop="name">Nos réalisations</span></a>
                                     <meta itemprop="position" content="2" />
                                 </li>
                             </ol>

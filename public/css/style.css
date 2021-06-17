@@ -5294,7 +5294,7 @@ p.plus.plus-2 {
     font-size: 50px;
     text-transform: uppercase;
     padding: 100px 10%;
-    background: linear-gradient(-45deg, #f70101, #8d2a73, #c2121f, #c8334c, #8d2a73, #f70101);
+    background:linear-gradient(-45deg, #4A1C40, #742C65, #9E3C89, #9E3C89, #742C65, #4A1C40);
     background-size: 400% 400%;
     -webkit-animation: Gradient 15s ease infinite;
     -moz-animation: Gradient 15s ease infinite;
@@ -5663,7 +5663,7 @@ margin: 15px 0;
 }
 
 .testim .cont div p {
-font-size: 1.15em;
+font-size: 1em;
 color: #eee;
 width: 80%;
 margin: auto;
@@ -6309,7 +6309,7 @@ div#service-156 .contenu {
 
 .prestation .cell.photo {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: bottom;
     width: 50%;
     text-align: center
 }
@@ -7885,9 +7885,9 @@ a.sudolien.suivant:hover {
 }
 
 .contact .formulaire .form-group .form-control {
-    background: #fff;
+    background:transparent;
     box-shadow: none;
-    color: #0d0d0d26;
+    color: #242424;
     border-radius: 0;
     width: 100% !important;
     font-size: inherit;
@@ -7895,7 +7895,8 @@ a.sudolien.suivant:hover {
 }
 
 footer .contact .formulaire .form-group .form-control {
-    background: #0d0d0d26
+    /* background: #FFF; */
+    color: #fff;
 }
 
 .contact .formulaire .form-group textarea.form-control {
@@ -11652,7 +11653,7 @@ span.imagefond.cover {}
 
 @media (min-width:1201px) and (max-width:1440px) {
     .container4 {
-        padding: 70px 0%;
+        /* padding: 70px 0%; */
     }
 }
 

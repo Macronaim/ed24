@@ -3,7 +3,9 @@
     <div class="row row1">
         <div class="contact" id="contact-form">
             <div class="formulaire contact-footer">
-                <h3 class="h1">Nous Contacter<span>vous aussi vous décidez de confier votre communication à ED CONCEPT 24</span></h3>
+                <h3 class="h1">Nous Contacter
+                <!-- <span>vous aussi vous décidez de confier votre communication à ED CONCEPT 24</span> -->
+                </h3>
                 <div class="row paddingContact">
                 @include('sections.contact-form')
                 </div>
@@ -69,7 +71,7 @@
             <ul id="menu_footer2" class="menu_footer2">
                 <li class="menu-item menu-item-service.list menu-item-133"><a href="{{ url('nos-prestations/site-vitrine') }}">Site Vitrine</a></li>
                 <li class="menu-item menu-item-service.list menu-item-135"><a href="{{ url('nos-prestations/e-commerce') }}">E-Commerce</a></li>
-                <li class="menu-item menu-item-service.list menu-item-134"><a href="{{ url('nos-prestations/referencement') }}">Référenecment Naturel</a></li>
+                <li class="menu-item menu-item-service.list menu-item-134"><a href="{{ url('nos-prestations/referencement') }}">Référencement Naturel</a></li>
             </ul>
 
             <!-- /Menu menu_footer2 -->

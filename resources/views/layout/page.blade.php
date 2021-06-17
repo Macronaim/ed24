@@ -51,8 +51,6 @@
 <script type='application/javascript'>
     var awstats_enable = 1;
 </script>
-<script data-type='application/javascript' data-name='awstat' defer data-src='/js/awstats_misc_tracker.js'></script>
-<noscript><img src='/js/awstats_misc_tracker.js?nojs=y' height=0 width=0 style='border:0; display: none' alt=''></noscript>
 <script type="text/javascript">
     var purechat_enable = 1;
 </script>

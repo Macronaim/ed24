@@ -22,7 +22,7 @@
             <ul id="menu_footer2" class="menu_footer2">
                 <li class="menu-item menu-item-service.list menu-item-133"><a href="{{ url('nos-prestations/site-vitrine') }}">Site Vitrine</a></li>
                 <li class="menu-item menu-item-service.list menu-item-135"><a href="{{ url('nos-prestations/e-commerce') }}">E-Commerce</a></li>
-                <li class="menu-item menu-item-service.list menu-item-134"><a href="{{ url('nos-prestations/referencement') }}">Référenecment Naturel</a></li>
+                <li class="menu-item menu-item-service.list menu-item-134"><a href="{{ url('nos-prestations/referencement') }}">Référencement Naturel</a></li>
             </ul>
 
             <!-- /Menu menu_footer2 -->

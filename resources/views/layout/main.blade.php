@@ -50,8 +50,6 @@
 <script type='application/javascript'>
     var awstats_enable = 1;
 </script>
-<script data-type='application/javascript' data-name='awstat' defer data-src='/js/awstats_misc_tracker.js'></script>
-<noscript><img src='/js/awstats_misc_tracker.js?nojs=y' height=0 width=0 style='border:0; display: none' alt=''></noscript>
 <script type="text/javascript">
     var purechat_enable = 1;
 </script>
@@ -71,7 +69,7 @@
 </script>
 
 <script data-name="youfindme" data-type="application/javascript" defer data-src="https://www.fdmanager.fr/elements/cookies.js"></script>
-<script defer type="text/javascript" src="js/klaro/dist/config.js"></script>
+<script defer type="text/javascript" src="{{ asset('js/klaro/dist/config.js') }}"></script>
 <script defer data-config="klaroConfig" type="application/javascript" src="https://cdn.kiprotect.com/klaro/v0.7.11/klaro.js">
 </script>
 <link rel="stylesheet" href="{{ asset('js/klaro/dist/klaro.css') }}">

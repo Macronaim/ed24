@@ -40,3 +40,9 @@ Route::get('/contact', function () {
 Route::get('/mentions-legales', function () {
     return view('pages/mentions-legales');
 });
+
+Route::get('/les-cookies', function () {
+    return view('pages/les-cookies');
+});
+
+Route::post('/mail', 'MailController@HandleEntry');

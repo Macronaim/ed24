@@ -63,7 +63,7 @@
         <div class="info-rgpd">
             <p><strong>**</strong> Les informations recueillies font l’objet d’un traitement informatique destiné à ED CONCEPT 24, responsable du traitement, aux fins de proposition de produits et/ou services et de prospection
                 commerciale. Conformément à la réglementation en vigueur, vous disposez notamment d'un droit d'opposition, d'accès, de rectification et d'effacement sur les données personnelles qui vous concernent. Pour
-                plus d’informations, cliquez <a href="/mentions-legales.html">ici</a>.</p>
+                plus d’informations, cliquez <a href="{{ url('/mentions-legales') }}">ici</a>.</p>
         </div>
     </fieldset>
 </form>
@@ -88,7 +88,7 @@
         e.preventDefault(); // avoid to execute the actual submit of the form.
 
         var form = jQuery(this);
-        var url = 'mail.php';
+        var url = '/mail';
 
         jQuery.ajax({
         type: "POST",
