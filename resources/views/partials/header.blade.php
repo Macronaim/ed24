@@ -1,4 +1,4 @@
-<body class="body-service-list body-service-list-88">
+<body class="body-service-list body-service-list-{{ $bannier }}">
 <script>
     var id_page = '88';
     var site_url = '';
@@ -56,8 +56,24 @@
                     <li class="menu-item menu-item-service.list menu-item-143"><a
                             href="{{ url('/nos-prestations/e-commerce') }}">E-Commerce</a></li>
                     <li class="menu-item menu-item-service.list menu-item-144"><a
-                            href="{{ url('/nos-prestations/référencement-naturel') }}">Référencement Naturel</a>
+                            href="{{ url('/nos-prestations/referencement-naturel') }}">Référencement Naturel</a>
                     </li>
+                </ul>
+            </li>
+            <li class="menu-item menu-item-external menu-item-139"><a href="#">Vous êtes?</a>
+                <ul class="sub-menu">
+                    <li class="menu-item menu-item-service.list"><a
+                            href="{{ url('/#eboutique') }}">E-boutique</a></li>
+                    <li class="menu-item menu-item-service.list"><a
+                            href="{{ url('/#sante-beaute') }}">Santé et Beauté</a></li>
+                    <li class="menu-item menu-item-service.list"><a
+                            href="{{ url('/#batiment') }}">Professionnel du bâtiment</a></li>
+                    <li class="menu-item menu-item-service.list"><a
+                            href="{{ url('/#secteur-services') }}">Services</a></li>
+                    <li class="menu-item menu-item-service.list"><a
+                            href="{{ url('/#restau') }}">Restaurateurs et traiteurs</a></li>
+                    <li class="menu-item menu-item-service.list"><a
+                            href="{{ url('/#autres') }}">Autres TPE / PME</a></li>
                 </ul>
             </li>
             <li class="menu-item menu-item-page menu-item-140"><a href="{{ url('/nos-realisations') }}">Nos réalisations</a>
@@ -79,7 +95,7 @@
         <div class="head">
             <div class="container nopad">
                 <div class="row relative header">
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-3 col-md-3">
                         <p class="logo-site">
                             <a href="{{ url('/') }}"><img src="{{ asset('images/logo.png') }}" alt="ED CONCEPT 24" /></a>
                         </p>
@@ -90,13 +106,34 @@
                             <ul id="menu_principal" class="menu_principal">
                                 <li class="menu-item menu-item-page menu-item-21 {{ Request::is('/') ? 'active' : '' }}"><a href="{{ url('/') }}">Accueil</a></li>
                                 <li class="menu-item menu-item-external menu-item-103 {{ Request::is('nos-prestations*') ? 'active' : '' }}"><a href="#!" target="_blank">Nos prestations</a></li>
+                                <li class="menu-item menu-item-external menu-item-131">
+                                    <div class="dropdown">
+                                        <a href="#" target="_self">Vous êtes</a>
+                                        <div class="dropdown-content">
+                                            <a class="secteurLink" href="{{ url('/#eboutique') }}">E-Boutique</a>
+                                            <a class="secteurLink" href="{{ url('/#sante-beaute') }}">Santé et Beauté</a>
+                                            <a class="secteurLink" href="{{ url('/#batiment') }}">Professionnel du bâtiment</a>
+                                            <a class="secteurLink" href="{{ url('/#secteur-services') }}">Services</a>
+                                            <a class="secteurLink" href="{{ url('/#restau') }}">Restaurateurs et traiteurs</a>
+                                            <a class="secteurLink" href="{{ url('/#autres') }}">Autres TPE / PME</a>
+                                        </div>
+                                    </div>  
+                                </li>
                                 <li class="menu-item menu-item-page menu-item-29 {{ Request::is('nos-realisations') ? 'active' : '' }}"><a href="{{ url('/nos-realisations') }}">Nos réalisations</a></li>
                                 <li class="menu-item menu-item-contact menu-item-29 {{ Request::is('contact') ? 'active' : '' }}"><a href="{{ url('/contact') }}">Contact</a></li>
                             </ul>
                             <!-- /Menu menu_principal -->
                         </nav>
                     </div>
-
+                    <div class="col-md-1 nopad"><div class="menu1">
+                            <button id="showRight" onClick="javascript:window.open('https://www.google.fr/search?q=ED+Concept+24&biw=1366&bih=661&ei=t6bMYNGoFuGPlwTfh7iwCA&oq=ED+Concept+24&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjIGCAAQFhAeOgcIABBHELADOggILhCRAhCTAjoFCAAQkQI6AggAOgIILjoHCC4QQxCTAjoECC4QCjoECAAQCjoFCC4QkwI6BwguEA0QkwI6BAgAEA06CAguEMcBEK8BOgsILhDHARCvARCTAjoICAAQFhAKEB5Q2zZYo1tgi15oBHACeAKAAdcBiAGDFJIBBjAuMTUuMpgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwiR4I3Xq6HxAhXhx4UKHd8DDoYQ4dUDCBE&uact=5', '_blank');" class="menu-button" style="visibility: visible;">
+                                <span class="note">4.8</span>
+                                <span class="avis">
+                                    <span class="icons1"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -109,7 +146,7 @@
         <ul id="menu_principal2" class="menu_principal2">
             <li class="menu-item menu-item-service.list menu-item-127"><a href="{{ url('/nos-prestations/site-vitrine') }}">Site Vitrine</a></li>
             <li class="menu-item menu-item-service.list menu-item-129"><a href="{{ url('/nos-prestations/e-commerce') }}">E-Commerce</a></li>
-            <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/référencement-naturel') }}">Référencement Naturel</a></li>
+            <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/referencement-naturel') }}">Référencement Naturel</a></li>
         </ul>
 
         <!-- /Menu menu_principal2 -->
@@ -122,61 +159,5 @@
 
     </nav> <!-- .cd-3d-nav-container -->
 
-    <nav class="cd-3d-nav-container-v2">
 
-        <!-- Menu menu_principal3 -->
-        <ul id="menu_principal2" class="menu_principal2">
-            <li class="menu-item menu-item-service.list menu-item-127"><a href="{{ url('/nos-prestations/site-vitrine') }}">Site Vitrine</a></li>
-            <li class="menu-item menu-item-service.list menu-item-129"><a href="{{ url('/nos-prestations/e-commerce') }}">E-Commerce</a></li>
-            <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/referencement') }}">Référencement Naturel</a></li>
-        </ul>
-
-        <!-- /Menu menu_principal3 -->
-
-        <span class="cd-marker color-1"></span>
-        <a href="#1" class="cd-3d-nav-trigger-v2">
-            Menu
-            <span></span>
-        </a>
-
-    </nav> <!-- .cd-3d-nav-container -->
-
-
-
-
-</div>
-<div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right hidden-sm hidden-xs" id="cbp-spmenu-s2">
-    <!-- Block 4 -->
-    <div class="block block-4">
-        <div class="text-satisfaction">
-            <div class="title2">ILS SONT SATISFAITS ET ILS LE DISENT !</div>
-            <div class="view view-4">
-
-                <div class="scrollbars">
-                    <p>Depuis 2009, la satisfaction client était notre objectif. Aujourd’hui, c’est notre
-                        engagement&nbsp;!</p>
-                    <p>Nous sommes fiers de pouvoir vous annoncer que nous avons atteint l’excellente note de
-                        4.6/5 sur Google. Les avis déposés reflètent la qualité de notre travail et notre
-                        implication constante auprès de chacun de nos clients.</p>
-                    <p>L’écoute, la réactivité, le professionnalisme et la disponibilité sont notre priorité et
-                        ça, nos clients l’ont bien compris. Leurs félicitations et leurs compliments nous vont
-                        droit au cœur. Nous tenons à les remercier chaleureusement de cette gratitude. Cette
-                        reconnaissance et cette confiance qui nous sont accordées nous encouragent à continuer
-                        encore plus loin sur cette voie de la réussite.&nbsp;</p>
-                    <p>Parce que pour être vu, il faut être visible, ED CONCEPT 24 continuera à vous accompagner
-                        jour après jour dans le développement de votre communication sur Internet.&nbsp;</p>
-                    <p class="blog_titre">Encore une fois&nbsp;: MERCI à tous&nbsp;!</p>
-
-                </div>
-                <p class="plus" style="z-index: 1;"><a href="https://www.edconcept24.fr/"
-                        target="_blank" rel="noopener"> <span>Voir tous les témoignages</span>
-                    </a></p>
-
-
-            </div>
-
-        </div>
-        <!-- /Block 4 -->
-    </div>
-    <div class='clearfix'></div>
 </div>

@@ -41,7 +41,21 @@
                         <ul class="sub-menu">
                             <li class="menu-item menu-item-service.list menu-item-127"><a href="{{ url('/nos-prestations/site-vitrine') }}">Site Vitrine</a></li>
                             <li class="menu-item menu-item-service.list menu-item-129"><a href="{{ url('/nos-prestations/e-commerce') }}">E-Commerce</a></li>
-                            <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/référencement-naturel') }}">Référencement Naturel</a></li>
+                            <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/referencement-naturel') }}">Référencement Naturel</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item menu-item-external menu-item-139"><a href="#">Vous êtes?</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item menu-item-service.list"><a class="secteurLinkMobile" href="{{ url('/#eboutique') }}">E-boutique</a></li>
+                            <li class="menu-item menu-item-service.list"><a class="secteurLinkMobile" href="{{ url('/#sante-beaute') }}">Santé et Beauté</a></li>
+                            <li class="menu-item menu-item-service.list"><a class="secteurLinkMobile" 
+                                    href="{{ url('/#batiment') }}">Professionnel du bâtiment</a></li>
+                            <li class="menu-item menu-item-service.list"><a class="secteurLinkMobile" 
+                                    href="{{ url('/#secteur-services') }}">Services</a></li>
+                            <li class="menu-item menu-item-service.list"><a class="secteurLinkMobile" 
+                                    href="{{ url('/#restau') }}">Restaurateurs et traiteurs</a></li>
+                            <li class="menu-item menu-item-service.list"><a class="secteurLinkMobile" 
+                                    href="{{ url('/#autres') }}">Autres TPE / PME</a></li>
                         </ul>
                     </li>
                     <li class="menu-item menu-item-page menu-item-140"><a href="{{ url('/nos-realisations') }}">Nos réalisations</a> </li>
@@ -60,7 +74,7 @@
                 <div class="head">
                     <div class="container nopad">
                         <div class="row relative header">
-                            <div class="col-lg-4 col-md-4">
+                            <div class="col-lg-3 col-md-3">
                                 <p class="logo-site">
                                     <a href="{{ url('/') }}/"><img src="{{ asset('images/logo.png') }}" alt="ED CONCEPT 24" /></a>
                                 </p>
@@ -75,6 +89,16 @@
                                     <!-- /Menu menu_principal -->
                                 </nav>
                             </div>
+                            <div class="col-md-1 nopad">
+                                <div class="menu1">
+                                    <button id="showRight" onClick="javascript:window.open('https://www.google.fr/search?q=ED+Concept+24&biw=1366&bih=661&ei=t6bMYNGoFuGPlwTfh7iwCA&oq=ED+Concept+24&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjIGCAAQFhAeOgcIABBHELADOggILhCRAhCTAjoFCAAQkQI6AggAOgIILjoHCC4QQxCTAjoECC4QCjoECAAQCjoFCC4QkwI6BwguEA0QkwI6BAgAEA06CAguEMcBEK8BOgsILhDHARCvARCTAjoICAAQFhAKEB5Q2zZYo1tgi15oBHACeAKAAdcBiAGDFJIBBjAuMTUuMpgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwiR4I3Xq6HxAhXhx4UKHd8DDoYQ4dUDCBE&uact=5', '_blank');" class="menu-button" style="visibility: visible;">
+                                    <span class="note">4.8</span>
+                                    <span class="avis">
+                                        <span class="icons1"></span>
+                                    </span>
+                                    </button>
+                                </div>
+                            </div>
 
 
                         </div>
@@ -86,9 +110,9 @@
             <nav class="cd-3d-nav-container">
                 <!-- Menu menu_principal2 -->
                 <ul id="menu_principal2" class="menu_principal2">
-                <li class="menu-item menu-item-service.list menu-item-127"><a href="{{ url('/nos-prestations/site-vitrine') }}">Site Vitrine</a></li>
-                <li class="menu-item menu-item-service.list menu-item-129"><a href="{{ url('/nos-prestations/e-commerce') }}">E-Commerce</a></li>
-                <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/référencement-naturel') }}">Référencement Naturel</a></li>
+                <li class="menu-item menu-item-service.list menu-item-127"><a href="{{ url('/nos-prestations/site-vitrine')}}">Site Vitrine</a></li>
+                <li class="menu-item menu-item-service.list menu-item-129"><a href="{{ url('/nos-prestations/e-commerce')}}">E-Commerce</a></li>
+                <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/nos-prestations/referencement-naturel')}}">Référencement Naturel</a></li>
                 </ul>
                 <!-- /Menu menu_principal2 -->
                 <span class="cd-marker color-1"></span>
@@ -113,26 +137,6 @@
 
 
 
-        </div>
-        <div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right hidden-sm hidden-xs" id="cbp-spmenu-s2">
-            <!-- Block 4 -->
-            <div class="block block-4">
-                <div class="text-satisfaction">
-                    <div class="title2">ILS SONT SATISFAITS ET ILS LE DISENT !</div>
-                    <div class="view view-4">
-                        <div class="cell photo cover"> <img class="lazy loaded" data-src="{{ asset('images/services/large/2.png') }}" alt="" src="{{ asset('images/services/large/1.png') }}" data-was-processed="true">
-                        </div>
-                        <p class="plus" style="z-index: 1;">
-                            <a href="https://www.edconcept24.fr/" target="_blank" rel="noopener"> 
-                            <span>rejoindre les nazis</span>
-                            </a>
-                        </p>
-                    </div>
-
-                </div>
-                <!-- /Block 4 -->
-            </div>
-            <div class='clearfix'></div>
         </div>
 
 
@@ -160,16 +164,10 @@
 
 
         <div class="fluid-contenu">
-
-
             <div class="dotencart">
                 <div class="container nopad">
                     <div class="row relative corps">
-
-
-
                         <div class="page container2 clear  node-1">
-
                             <div class="col-md-6  col-xs-12 col-sm-12" data-anim="fadeInLeft">
                                 <h1>EDConcept24<br> <span>Des sites web de qualité à prix serrés</span>
                                 </h1>
@@ -186,15 +184,15 @@
                                     <p class="plus" style="margin-top: 0px;"><a href="{{ url('/nos-prestations/site-vitrine') }}">Lire la suite</a></p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-xs-12">
-                                <div class="cell photo cover"> <img class="lazy loaded" data-src="{{ asset('images/conception-et-design.svg') }}" alt="" src="{{ asset('images/conception-et-design.svg') }}" data-was-processed="true">
+                            <div class="col-md-6 col-xs-12" data-anim="fadeInRight">
+                                <div class="cell photo cover"> <img class="lazy loaded" data-src="{{ asset('images/conception-et-design.svg') }}" alt="" src="{{ asset('images/ipad.png') }}" data-was-processed="true">
                                 </div>
                             </div>
-                            <div class="col-md-12 col-xs-12">
+                            <div class="col-md-12 col-xs-12" data-anim="fadeInLeft">
                                 <section class="p-4">
                                     <h2>Lancez-vous, faites appel à des professionnels</h2>
                                     <div class="progress-box">
-                                        <h6 class="title text-muted">Entreprises possédant un site en France</h6>
+                                        <h6 class="title text-muted">Entreprises possédant un site en France (65%)</h6>
                                         <div class="progress">
                                             <div class="progress-bar position-relative bg-primary" style="width:65%;">
                                                 <div class="progress-value d-block text-muted h6">65%</div>
@@ -202,7 +200,7 @@
                                         </div>
                                     </div><!--end process box-->
                                     <div class="progress-box mt-4">
-                                        <h6 class="title text-muted">Utilisent au moins un réseau social</h6>
+                                        <h6 class="title text-muted">Utilisent au moins un réseau social (20%)</h6>
                                         <div class="progress">
                                             <div class="progress-bar position-relative bg-primary" style="width:20%;">
                                                 <div class="progress-value d-block text-muted h6">20%</div>
@@ -210,7 +208,7 @@
                                         </div>
                                     </div><!--end process box-->
                                     <div class="progress-box mt-4">
-                                        <h6 class="title text-muted">Pensent qu’avoir un site vitrine est indispensable</h6>
+                                        <h6 class="title text-muted">Pensent qu’avoir un site vitrine est indispensable (71%)</h6>
                                         <div class="progress">
                                             <div class="progress-bar position-relative bg-primary" style="width:71%;">
                                                 <div class="progress-value d-block text-muted h6">71%</div>
@@ -218,7 +216,7 @@
                                         </div>
                                     </div><!--end process box-->
                                     <div class="progress-box mt-4">
-                                        <h6 class="title text-muted">Pensent qu’avoir un site marchand est indispensable</h6>
+                                        <h6 class="title text-muted">Pensent qu’avoir un site marchand est indispensable (51%)</h6>
                                         <div class="progress">
                                             <div class="progress-bar position-relative bg-primary" style="width:51%;">
                                                 <div class="progress-value d-block text-muted h6">51%</div>
@@ -233,115 +231,76 @@
 
                     </div>
                     <!-- .row -->
+                    @include('sections.secteurs')
                     <section class="services">
-                        <div class="container post-content">
+                        <div class="container2 post-content">
                             <h2 class="title1">Nos services</h2>
-                            
+                            @include('sections.timeline')  
                             <div class="cat-liste catalogue-4">
+                                <div class="row relative corps">
+                                    <div class="col-lg-4 col-md-6 col-sm-6">
+                                        <div class="card" data-anim="fadeInUp">
+                                            <img class="card__icon" src="{{ asset('/images/conception.svg') }}" alt="ux-design" height="200px">
+                                            <div class="card__body">
+                                            <h4 class="card__head">Conception de sites</h4>
+                                            <p class="card__content">Du site vitrine au site développé sur mesure, nous saurons répondre à toutes vos demandes.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6">
+                                        <div class="card" data-anim="fadeInUp">
+                                            <img class="card__icon" src="{{ asset('/images/boutique.svg') }}" alt="ux-design" height="200px">
+                                            <div class="card__body">
+                                            <h4 class="card__head">E-boutiques</h4>
+                                            <p class="card__content">Nous vous proposons des solutions évolutives qui vous permettront de démarrer à petit budget.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6">
+                                        <div class="card" data-anim="fadeInUp">
+                                            <img class="card__icon" src="{{ asset('/images/referencement.svg') }}" alt="ux-design" height="200px">
+                                            <div class="card__body">
+                                            <h4 class="card__head">Référencement</h4>
+                                            <p class="card__content">Bien positionné dans les moteurs de recherche : la clé du succés</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="row">
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="card">
-                                    <img class="card__icon" src="{{ asset('/images/conception.svg') }}" alt="ux-design" height="200px">
-                                    <div class="card__body">
-                                    <h4 class="card__head">Conception de sites</h4>
-                                    <p class="card__content">Du site vitrine au site développé sur mesure, nous saurons répondre à toutes vos demandes.</p>
+                                    <div class="col-lg-4 col-md-6 col-sm-6">
+                                        <div class="card" data-anim="fadeInUp">
+                                            <img class="card__icon" src="{{ asset('/images/hebergement.svg') }}" alt="ux-design" height="200px">
+                                            <div class="card__body">
+                                            <h4 class="card__head">Hébergement</h4>
+                                            <p class="card__content">Nos packs incluent l'hébergement sur serveurs de qualité, des sites ayant du répondant !</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="card">
-                                    <img class="card__icon" src="{{ asset('/images/boutique.svg') }}" alt="ux-design" height="200px">
-                                    <div class="card__body">
-                                    <h4 class="card__head">E-boutiques</h4>
-                                    <p class="card__content">Nous vous proposons des solutions évolutives qui vous permettront de démarrer à petit budget.</p>
+                                    <div class="col-lg-4 col-md-6 col-sm-6">
+                                        <div class="card" data-anim="fadeInUp">
+                                            <img class="card__icon" src="{{ asset('/images/reseauxsocieux.svg') }}" alt="ux-design" height="200px">
+                                            <div class="card__body">
+                                            <h4 class="card__head">Réseaux sociaux</h4>
+                                            <p class="card__content">Utilisez les réseaux sociaux pour augmenter votre visibilité et vos visiteurs.</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="card">
-                                    <img class="card__icon" src="{{ asset('/images/referencement.svg') }}" alt="ux-design" height="200px">
-                                    <div class="card__body">
-                                    <h4 class="card__head">Référencement</h4>
-                                    <p class="card__content">Bien positionné dans les moteurs de recherche : la clé du succés</p>
+                                    <div class="col-lg-4 col-md-6 col-sm-6">
+                                        <div class="card" data-anim="fadeInUp">
+                                            <img class="card__icon" src="{{ asset('/images/faciles.svg') }}" alt="ux-design" height="200px">
+                                            <div class="card__body">
+                                            <h4 class="card__head">Faciles à vivre</h4>
+                                            <p class="card__content">Une interface conviviale pour facilement alimenter votre site</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="card">
-                                    <img class="card__icon" src="{{ asset('/images/hebergement.svg') }}" alt="ux-design" height="200px">
-                                    <div class="card__body">
-                                    <h4 class="card__head">Hébergement</h4>
-                                    <p class="card__content">Nos packs incluent l'hébergement sur serveurs de qualité, des sites ayant du répondant !</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="card">
-                                    <img class="card__icon" src="{{ asset('/images/reseauxsocieux.svg') }}" alt="ux-design" height="200px">
-                                    <div class="card__body">
-                                    <h4 class="card__head">Réseaux sociaux</h4>
-                                    <p class="card__content">Utilisez les réseaux sociaux pour augmenter votre visibilité et vos visiteurs.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6">
-                                <div class="card">
-                                    <img class="card__icon" src="{{ asset('/images/faciles.svg') }}" alt="ux-design" height="200px">
-                                    <div class="card__body">
-                                    <h4 class="card__head">Faciles à vivre</h4>
-                                    <p class="card__content">Une interface conviviale pour facilement alimenter votre site</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                        
-                        </div>
-                </section>
-                <section id="testim" class="testim">
-                                <div class="wrap">
-                                    <h3 class="" style="color: #fff; text-align:center">Témoignages</h3>
-                                    <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
-                                    <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
-                                    <ul id="testim-dots" class="dots hidden-xs hidden-sm">
-                                        <li class="dot active"></li>
-                                        <li class="dot"></li>
-                                        <li class="dot"></li>
-                                    </ul>
-                                    <div id="testim-content" class="cont">
-                                        <div class="active">
-                                            <h2>Merci à l'équipe EDConcept24 !, <a href="http://www.david-sono-animations.fr/">David Sono Animations</a> </h2>
-                                            <p>Un grand merci à ED CONCEPT24 pour l’élaboration de mon nouveau site internet. www.davidsonoanimation.fr du très bon travail
-                                            </p>                    
-                                        </div>
-                    
-                                        <div>
-                                            <h2>Hébergement, Espace Beauté</h2>
-                                            <p>Depuis la prise en charge par EDConcept et l’hébergement sur leurs serveurs, mon site fonctionne enfin correctement, plus d’attente à chaque clic pour que les pages se génèrent. Un grand merci pour votre professionnalisme.</p>                    
-                                        </div>
-                    
-                                        <div>
-                                            <h2>Hausse de mes visites, Asfaux multiservices</h2>
-                                            <p>Grâce au bon référencement de mon site par EDConcept, mon site se trouve bien placé sur les moteurs de recherche, un impact direct sur mon CA.
-                                            </p>                    
-                                        </div>
-                                    </div>
-                    
-                                </div>
-                </section>
-                <section class="realisations">
-                    <div class="container1 post-content">
-                        <h2 class="title1">Nos dernières réalisations</h2>
-                        @include('sections.realisations')
-                    </div>
-                </section>
-
+                    </section>
+                    @include('sections.google-my-business')
+                </div>
             </div>
-        </div>
-        <!-- .container -->
-            <!-- main -->
         </div>
 @endsection
 

@@ -1,8 +1,5 @@
 <div class="cat-liste catalogue-4">
-
-
     <div id="filtres" class="clear">
-
     </div>
     <div class="nopad pad-xs pad-sm">
         <div class="row modele-liste" itemscope="" itemtype="http://schema.org/ItemList" id="catalogue-list">
@@ -11,8 +8,6 @@
 
             <div class="col-md-4 col-sm-4 col-xs-12  delay-200 animated fadeInUp" data-anim="fadeInUp">
                 <div class="item catalogue-850" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Product">
-
-
                     <div class="overaly3">
                         <h2 itemprop="name">dordogne-demenagement.fr</h2>
 
@@ -21,11 +16,8 @@
                         <p class="plus plus-2">
                             <a href="https://www.dordogne-demenagement.fr/" title="lien " target="_blank"><span>Consulter le site</span></a>
                         </p>
-
-
                     </div>
                     <!-- ********** MODELE *********** -->
-
                     <div class="div-proportionnel-item">
                         <div class="cont-propor">
                             <div class="imagecont">
@@ -34,7 +26,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- ********** MODELE *********** -->
 
                 </div>

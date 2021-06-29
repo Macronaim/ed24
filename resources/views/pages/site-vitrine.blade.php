@@ -66,7 +66,7 @@
                             PARCE QU’UN SITE INTERNET N’EST BEAU<br> QUE SI IL EST VU...
 
                             <div class="btn1"><a
-                                    href="{{ url('/nos-prestations/référencement-naturel') }}"
+                                    href="{{ url('/nos-prestations/referencement-naturel') }}"
                                     class="plus2">Découvrez nos solutions de référencement</a></div>
 
                         </div>

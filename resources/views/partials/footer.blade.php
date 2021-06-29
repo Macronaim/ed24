@@ -103,7 +103,7 @@
         <div class="col-md-3 col-sm-6 navf nopad">
             <em>Suivez-nous</em>
             <div class="social_links_footer">
-                <a class="btn-fb-f" href="https://fr-fr.facebook.com/edconcept24/" target="_blank"></a>
+                <a class="btn-fb-f" href="https://fr-fr.facebook.com/EC24.fr/" target="_blank"></a>
             </div>
         </div>
     </div>

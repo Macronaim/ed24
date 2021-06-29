@@ -4,6 +4,7 @@
     });
 </script>
 <form action="#" id="contact_5" method="post" enctype="multipart/form-data" class="form-horizontal">
+    @csrf
     <fieldset><input type="hidden" name="_form" value="contact_5" id="contact_5-element-0" />
         <div class="form-group"><label class="control-label col-md-4" for="contact_5-element-1">Société</label>
             <div class="col-md-8"><input type="text" class="form-control input-md col-md-8 " name="Sociéte" value placeholder="Société" id="contact_5-element-1" /></div>
@@ -97,10 +98,11 @@
         success: function(data)
         {
                 
-                alert(data); // show response from the php script.
+            alert(data); // show response from the php script.
+            document.getElementById("contact_5").reset();
         }, error: function(){
-                console.log("Erreur");
+            console.log("Erreur");
         }
-        });  
+        });
     });
 </script>

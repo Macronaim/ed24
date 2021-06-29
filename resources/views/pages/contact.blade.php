@@ -25,11 +25,9 @@
                             <!-- Maps -->
                             <div class="row delay-200" data-anim="fadeInUp">
                                 <div class="col-md-12 col-sm-12 col-xs-12">
-
                                     <div class="maps">
-                                    
                                         <iframe
-                                            src="https://maps.google.com/maps?q=78%20Rue%20Victor%20Hugo%202e%20%C3%A9tage&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                            src="https://maps.google.com/maps?q=78%20Rue%20Victor%20Hugo%202e%20%C3%A9tage%2024000%20P%C3%A9rigueux%20France&t=&z=13&ie=UTF8&iwloc=&output=embed"
                                             frameborder="0" allowfullscreen></iframe>
                                     </div>
                                 </div>

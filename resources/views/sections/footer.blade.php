@@ -1,5 +1,5 @@
 <footer class="hide-print pied post-content">
-<div class="bande3">
+    <div class="bande3">
     <div class="row">
         <div class="col-md-3 col-sm-6 nopad navf col-sm-6">
             <em>Accès rapide</em>
