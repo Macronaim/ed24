@@ -393,7 +393,7 @@ if (!AUDIT) {
                 $('.form-group .form-control:not(input[name="_rgpd[]"])').after('<span class="focus-border"><i></i></span>');
                 //$('.uploaddiv .form-control').after('<span class="focus-border"><i></i></span>');
             }
-            $('.contact .formulaire .form-group:eq(7), .contact .formulaire .form-group:eq(8), .contact .formulaire .form-group:eq(9), .contact .formulaire .form-group:eq(10), .contact .formulaire .form-group:eq(11), .contact .formulaire .form-group:eq(12), .contact .formulaire .form-group:eq(13)').appendTo('.formulaire.droite');
+            $('.contact .formulaire .form-group:eq(6), .contact .formulaire .form-group:eq(7), .contact .formulaire .form-group:eq(8), .contact .formulaire .form-group:eq(9), .contact .formulaire .form-group:eq(10), .contact .formulaire .form-group:eq(11), .contact .formulaire .form-group:eq(12), .contact .formulaire .form-group:eq(13)').appendTo('.formulaire.droite');
 
             $('.contact .form-group:contains("obligatoires"), .info-rgpd ').appendTo('.contact .formulaire.droite');
             if ((DELTA == 832) || ((DELTA == 841))) jQuery('.contact .formulaire.droite').prepend(jQuery('#input_file'));

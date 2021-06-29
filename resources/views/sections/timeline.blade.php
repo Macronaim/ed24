@@ -25,7 +25,9 @@
 
     <div class="col-md-5 col-xs-12 col-sm-6">
         <!-- <div class="iphone3 animated fadeInLeft" data-anim="fadeInLeft"><img class="lazy loaded" src="{{ asset('images/kids.png') }}" data-src="{{ asset('images/kids.png') }}" alt="" data-was-processed="true"></div> -->
-        <div class="iphone4 hidden-sm animated-long fadeInRight" data-anim="fadeInRight"><img class="lazy loaded" src="{{ asset('images/kids.png') }}" data-src="{{ asset('images/kids.png') }}" alt="" data-was-processed="true"></div>
+        <div class="eboutique4">
+        <img class="lazy loaded animated fadeInRight" src="http://ed24.test/images/eboutique.png" data-src="http://ed24.test/images/eboutique.png" alt="" data-was-processed="true" data-anim="fadeInRight">
+        </div>
     </div>
 </div>
 

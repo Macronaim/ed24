@@ -24,9 +24,6 @@
         <div class="form-group"><label class="control-label col-md-4" for="contact_5-element-6"><span class="required">* </span>Courriel</label>
             <div class="col-md-8"><input type="email" name="email" value class="form-control input-md col-md-8" required placeholder="Courriel*" id="contact_5-element-6" /></div>
         </div>
-        <div class="form-group"><label class="control-label col-md-4" for="contact_5-element-7">Localisation</label>
-            <div class="col-md-8"><select name="localisation" class="form-control input-md col-md-8" id="contact_5-element-7"><option value="" selected="selected">Localisation</option><option value="Bordeaux">Bordeaux</option><option value="Périgueux">Périgueux</option><option value="Lyon">Lyon</option><option value="Marseille">Marseille</option><option value="Nantes">Nantes</option><option value="Rouen">Rouen</option><option value="Strasbourg">Strasbourg</option><option value="Toulouse">Toulouse</option></select></div>
-        </div>
         <div class="form-group"><label class="control-label col-md-4" for="contact_5-element-8">Je suis déjà client ?</label>
             <div class="col-md-8"><select name="client" class="form-control input-md col-md-8" id="contact_5-element-8"><option value="" selected="selected">Je suis déjà client ?</option><option value="Oui">Oui</option><option value="Non">Non</option></select></div>
         </div>

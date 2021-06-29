@@ -83,7 +83,7 @@
                                         <div class="detail-storie">
                                                 <span>Accédez CRM</span>
                                                 <br />
-                                                <a href="#" class="plus3">CRM</a>
+                                                <a href="http://archivecrm.edconcept24.fr/" class="plus3">CRM</a>
                                         </div>
                                     </div>
                                 </div>

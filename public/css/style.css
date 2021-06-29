@@ -3998,7 +3998,7 @@ h6 a:hover {
     animation-timing-function: cubic-bezier(.54, .085, .5, .92);
 }
 
-.iphone4 {
+.eboutique4 {
     position: relative;
     right: -10%;
     float: right;
@@ -4008,20 +4008,24 @@ h6 a:hover {
     height: 519px
 }
 
-.iphone4 img {
+.eboutique4 img {
     -webkit-transform: translate(0) rotate(-5deg);
     width: initial !important;
     transform: translate(0) rotate(-5deg);
     transform-origin: 0 0;
-    /* max-width: 61%; */
+    max-width: 150%;
+    /*
     animation-name: floating2;
     -webkit-animation-name: floating2;
+    */
     animation-duration: 8s;
     -webkit-animation-duration: 8s;
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
+    /*
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
+    */
     -webkit-animation-timing-function: cubic-bezier(.54, .085, .5, .92);
     animation-timing-function: cubic-bezier(.54, .085, .5, .92);
 }
@@ -4034,6 +4038,12 @@ h6 a:hover {
     /*
     max-height: 757px;
     height: 757px */
+}
+.macgif, .stylos {
+    animation-duration: 8s;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
 }
 
 .mac .mac_gif {
