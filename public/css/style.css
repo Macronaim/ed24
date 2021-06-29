@@ -3998,7 +3998,7 @@ h6 a:hover {
     animation-timing-function: cubic-bezier(.54, .085, .5, .92);
 }
 
-.eboutique4 {
+.e-boutique4 {
     position: relative;
     right: -10%;
     float: right;
@@ -4008,7 +4008,7 @@ h6 a:hover {
     height: 519px
 }
 
-.eboutique4 img {
+.e-boutique4 img {
     -webkit-transform: translate(0) rotate(-5deg);
     width: initial !important;
     transform: translate(0) rotate(-5deg);

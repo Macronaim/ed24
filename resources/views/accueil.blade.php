@@ -46,7 +46,7 @@
                     </li>
                     <li class="menu-item menu-item-external menu-item-139"><a href="#">Vous êtes?</a>
                         <ul class="sub-menu">
-                            <li class="menu-item menu-item-service.list"><a class="secteurLinkMobile" href="{{ url('/#eboutique') }}">E-boutique</a></li>
+                            <li class="menu-item menu-item-service.list"><a class="secteurLinkMobile" href="{{ url('/#commerçant') }}">Commerçant</a></li>
                             <li class="menu-item menu-item-service.list"><a class="secteurLinkMobile" href="{{ url('/#sante-beaute') }}">Santé et Beauté</a></li>
                             <li class="menu-item menu-item-service.list"><a class="secteurLinkMobile" 
                                     href="{{ url('/#batiment') }}">Professionnel du bâtiment</a></li>
@@ -251,7 +251,7 @@
                                         <div class="card" data-anim="fadeInUp">
                                             <img class="card__icon" src="{{ asset('/images/boutique.svg') }}" alt="ux-design" height="200px">
                                             <div class="card__body">
-                                            <h4 class="card__head">E-boutiques</h4>
+                                            <h4 class="card__head">Commerçants</h4>
                                             <p class="card__content">Nous vous proposons des solutions évolutives qui vous permettront de démarrer à petit budget.</p>
                                             </div>
                                         </div>

@@ -2,7 +2,7 @@
 
 <!-- Menu menu_principal3 -->
 <ul id="menu_principal3" class="menu_principal3">
-    <li class="menu-item menu-item-service.list menu-item-127"><a href="{{ url('/#eboutique') }}">E-Boutique</a></li>
+    <li class="menu-item menu-item-service.list menu-item-127"><a href="{{ url('/#commerçant') }}">Commerçant</a></li>
     <li class="menu-item menu-item-service.list menu-item-129"><a href="{{ url('/#sante-beaute') }}">Santé et Beauté</a></li>
     <li class="menu-item menu-item-service.list menu-item-128"><a href="{{ url('/#batiment') }}">Professionnel du bâtiment</a></li>
     <li class="menu-item menu-item-service.list"><a href="{{ url('/#secteur-services') }}">Services</a></li>
@@ -51,7 +51,7 @@
     <div class="agenda animated" data-anim="fadeInLeft"><img class="lazy loaded" src="{{ asset('images/faciles.svg') }}" data-src="{{ asset('images/agenda.png') }}" alt="" data-was-processed="true"></div>
 </div>
 <div class="col-md-5 col-xs-12 col-sm-6 hidden-xs hidden-sm">
-    <div class="lien3 dotparent"><span>E-boutiques</span><p class="card__content">Nous vous proposons des solutions évolutives qui vous permettront de démarrer à petit budget.</p></div>
+    <div class="lien3 dotparent"><span>Commerçants</span><p class="card__content">Nous vous proposons des solutions évolutives qui vous permettront de démarrer à petit budget.</p></div>
     <div class="stylos animated fadeInUp" data-anim="fadeInUp"><img class="lazy loaded" src="{{ asset('images/conception.svg') }}" data-src="{{ asset('images/conception.svg') }}" alt="" data-was-processed="true"></div>
     <div class="ipad animated fadeInRight" data-anim="fadeInRight"><img class="lazy loaded" src="{{ asset('images/ipad.png') }}" data-src="{{ asset('images/ipad.png') }}" alt="" data-was-processed="true"></div>
     <div class="lunette animated fadeInRight" data-anim="fadeInRight"><img class="lazy loaded" src="{{ asset('images/lunette.jpg') }}" data-src="{{ asset('images/lunette.jpg') }}" alt="" data-was-processed="true"></div>

@@ -17,7 +17,7 @@
 
 <div class="row relative corps">
     <div class="col-md-7 col-xs-12 col-sm-7">
-        <div class="lien4 dotparent animated-long fadeInLeft" data-anim="fadeInLeft"><span>E-boutiques</span><p class="card__content">Nous vous proposons des solutions évolutives qui vous permettront de démarrer à petit budget.</p>
+        <div class="lien4 dotparent animated-long fadeInLeft" data-anim="fadeInLeft"><span>Commerçants</span><p class="card__content">Nous vous proposons des solutions évolutives qui vous permettront de démarrer à petit budget.</p>
         <h3 style="font-weight:600">DES SOLUTIONS ÉVOLUTIVES</h3>
         <p>Le commerce électronique enregistre aujourd’hui une croissance record, ne passez pas à côté et laissez-nous vous guider.</p>
         </div>
@@ -25,7 +25,7 @@
 
     <div class="col-md-5 col-xs-12 col-sm-6">
         <!-- <div class="iphone3 animated fadeInLeft" data-anim="fadeInLeft"><img class="lazy loaded" src="{{ asset('images/kids.png') }}" data-src="{{ asset('images/kids.png') }}" alt="" data-was-processed="true"></div> -->
-        <div class="eboutique4">
+        <div class="e-boutique4">
         <img class="lazy loaded animated fadeInRight" src="http://ed24.test/images/eboutique.png" data-src="http://ed24.test/images/eboutique.png" alt="" data-was-processed="true" data-anim="fadeInRight">
         </div>
     </div>

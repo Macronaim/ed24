@@ -7,7 +7,7 @@
             <div class="dropdown">
                 <a href="#" target="_self">Vous êtes</a>
                 <div class="dropdown-content">
-                    <a class="secteurLink" href="{{ url('/#eboutique') }}">E-Boutique</a>
+                    <a class="secteurLink" href="{{ url('/#commerçant') }}">Commerçant</a>
                     <a class="secteurLink" href="{{ url('/#sante-beaute') }}">Santé et Beauté</a>
                     <a class="secteurLink" href="{{ url('/#batiment') }}">Professionnel du bâtiment</a>
                     <a class="secteurLink" href="{{ url('/#secteur-services') }}">Services</a>

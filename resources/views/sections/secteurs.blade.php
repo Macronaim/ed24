@@ -3,13 +3,13 @@
 <h2 class="animated fadeInLeft">Vous êtes?</h2>
 
 <dl class="responsive-tabs animated fadeInDown" >
-  <dt id="eboutique" name="eboutique">E-boutique</dt>
+  <dt id="commerçant" name="commerçant">Commerçant</dt>
   <dd>
     <div class="row">
         <div class="col-md-6 col-xs-12 col-sm-6">
             <div class="content_wrapper animated fadeInLeft">
                 <div class="wgl-infobox-title_wrapper">
-                    <h3 class="wgl-infobox_title">E-boutique</h3>
+                    <h3 class="wgl-infobox_title">Commerçant</h3>
                 </div>
                 <div class="wgl-infobox_content">
                     <ul style="margin-bottom: 16px">

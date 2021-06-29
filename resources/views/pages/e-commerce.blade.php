@@ -39,7 +39,7 @@
                                 <div class="cell texte">
                                     <div class="contenu">
                                         <h2 class="h1 sans-image">
-                                        E-boutiques, <br> e-commerce
+                                        Commerçants, <br> e-commerce
                                         </h2>
                                         <blockquote>
                                             <h4>Le commerce électronique enregistre aujourd’hui une croissance record. Loin d’être un phénomène passager, il est porté par une forte transformation des usages de consommation, dans pour ainsi dire tous les secteurs d’activité.</h4>

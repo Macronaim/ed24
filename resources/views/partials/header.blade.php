@@ -63,7 +63,7 @@
             <li class="menu-item menu-item-external menu-item-139"><a href="#">Vous êtes?</a>
                 <ul class="sub-menu">
                     <li class="menu-item menu-item-service.list"><a
-                            href="{{ url('/#eboutique') }}">E-boutique</a></li>
+                            href="{{ url('/#commerçant') }}">Commerçant</a></li>
                     <li class="menu-item menu-item-service.list"><a
                             href="{{ url('/#sante-beaute') }}">Santé et Beauté</a></li>
                     <li class="menu-item menu-item-service.list"><a
@@ -110,7 +110,7 @@
                                     <div class="dropdown">
                                         <a href="#" target="_self">Vous êtes</a>
                                         <div class="dropdown-content">
-                                            <a class="secteurLink" href="{{ url('/#eboutique') }}">E-Boutique</a>
+                                            <a class="secteurLink" href="{{ url('/#commerçant') }}">Commerçant</a>
                                             <a class="secteurLink" href="{{ url('/#sante-beaute') }}">Santé et Beauté</a>
                                             <a class="secteurLink" href="{{ url('/#batiment') }}">Professionnel du bâtiment</a>
                                             <a class="secteurLink" href="{{ url('/#secteur-services') }}">Services</a>
